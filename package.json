@@ -2,7 +2,11 @@
 	"name": "logical-operators",
 	"version": "1.0.0",
 	"license": "ISC",
+	"type": "module",
 	"devDependencies": {
 		"prettier": "3.3.3"
-	}
+	},
+	"workspaces": [
+		"packages/conjunction"
+	]
 }
